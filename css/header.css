@@ -43,6 +43,11 @@ i {
 	height: 100%;
 }
 
+.box {
+	display: flex;
+	flex-direction: column;
+}
+
 .under-header {
 	font-size: 15px;
 	padding: 10px 0px 10px 10px;

@@ -2,15 +2,18 @@
 <html>
 <head>
 	<title>Title</title>
-	<meta http-equiv="Refresh" content="0.5" />
+	<meta http-equiv="Refresh" content="" />
 	<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="css\header.css">
+	<link rel="stylesheet" type="text/css" href="css\payloads.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
 	<div class="container">
 		<header>
-			<img src="logo.PNG">
+			<a href="#">
+				<img src="logo.PNG"/>
+			</a>
 			<ul>
 				<li class="header-button">Home</li>
 				<li class="header-button">Shop</li>
@@ -29,16 +32,92 @@
 			<a href="#" class="nav-hrev">Lorem ipsum</a>
 		</div>
 		<div class="content-container">
-			<ul>
-				<li><span class="containers-header">Billing Details</span>
-					<div class="billing">
-						<div class="first-column">
-							<div class="first-name"></div>
-							<span class="input-name">First Name</span>
-							<input type="text" placeholder="Name" />
-						</div>
+			<ul class="main-ul">
+				<li class="main-li">
+					<div class="head-name-cont">
+						<span class="containers-header">Billing Details</span>
+						<button>+</button>
 					</div>
+					<form>
+						<div class="billing">
+							<div class="first-row">
+								<div class="first-column">
+									<div class="cont">
+										<span class="input-name">First Name</span>
+										<input class="normall-input" type="text" placeholder="Name" />
+									</div>
+									<div class="cont">
+										<span class="input-name">Email</span>
+										<input class="normall-input" type="Email" placeholder="Email" />
+									</div>
+									<div class="cont">
+										<span class="input-name">Country</span>
+										  <select class="country-select">
+    							        	    <option value="t1" >Ukraine</option>
+   								            	<option value="t2">USA</option>
+        							        	<option value="t3">Israel</option>
+          								    	<option value="t4">France</option>
+          								  </select>
+										</div>
+									</div>
+									<div class="second-column">
+										<div class="cont">
+											<span class="input-name">Last Name</span>
+											<input class="normall-input" type="text" placeholder="Last Name" />
+										</div>
+										<div class="cont">
+											<span class="input-name">Phone Number</span>
+											<input class="normall-input" type="Email" pattern="(   )  -    " />
+										</div>
+										<div class="cont">
+											<span class="input-name">Adress</span>
+											<input class="normall-input" type="text" placeholder="Adress" />
+										</div>
+									</div>
+								</div>
+								<div class="box">
+								<div class="second-row">
+									<div class="small-input-box">
+										<span class="input-name">City/Town</span>
+										<input type="text" class="small-input">
+									</div>
+									<div class="small-input-box">
+										<span class="input-name">State</span>
+										<select class="state-select">
+    								         <option value="t1">Nevada</option>
+   									         <option value="t2">California</option>
+   									         <option value="t3">Ohio</option>
+   									         <option value="t4">Virginia</option>
+        	  							</select>
+									</div>
+									<div class="small-input-box">
+										<span class="input-name">City/Town</span>
+										<input type="text" class="small-input">
+									</div>
+								</div>
+								<div class="big-input-box">
+									<span class="input-name">Order Notes</span>
+									<input type="text" class="big-input">
+								</div>
+								<div class="checkbox-cont">
+								<input type="checkbox" class="checkbox" /><span class="chkbx">Sign Up to Michai</span>
+								</div>
+							</div>
+						</div>
+					</form>
 				</li>
+				<li class="main-li"><div class="head-name-cont">
+						<span class="containers-header">Shipping Metog</span>
+						<button>+</button>
+					</div>
+					<li class="main-li"><div class="head-name-cont">
+						<span class="containers-header">Payment Metod</span>
+						<button>+</button>
+					</div>
+					<li class="main-li"><div class="head-name-cont">
+						<span class="containers-header">Rewiew</span>
+						<button>+</button>
+					</div>
 			</ul>
 		</div>
 	</div>
