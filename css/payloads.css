@@ -10,6 +10,10 @@
 	padding: 0px 0px 0px 0px;
 }
 
+.head-name-cont-second {
+	width: 500px;
+}
+
 .content-container {
 	width: 50%;
 }
@@ -119,4 +123,17 @@ input {
 select {
 	border: lightblue 1px solid;
 	border-radius: 3px;
+}
+
+.shipping {
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+	width: 100%;
+	margin: 10px;
+}
+.shipp-paragraph {
+	display: block;
+	width: 500px;
+	font-size: 14px;
 }
