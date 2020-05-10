@@ -93,7 +93,7 @@ i {
 
 .header-button:hover{
 	font-weight: bold;
-	cursor: pointer;
+	cursor: pointer;	
 }
 
 .shop:hover, .log-out:hover{
