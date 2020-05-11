@@ -3,10 +3,10 @@
 	margin: 20px 0px 0px 30px;
 	background: #f2f5f6;
 	width: 500px;
-	height: 700px;
+	height: 620px;
 	display: flex;
 	flex-direction: column;
-	bo
+	box-shadow: 0px 0px 5px 3px rgba(0,0,0,0.5);
 }
 
 .good-container {
@@ -82,11 +82,109 @@
 }
 
 .promo-code {
-	width: 95%;
-	height: 20px;
+	width: 480px;
+	height: 25px;
 	margin-left: 10px; 
 }
 
 .third {
 	border-bottom: 1px solid #f2f5f6;
+}
+
+.sub-promo-cont {
+	display: flex;
+	flex-direction: row;
+}
+
+.summs {
+	width: auto;
+	height: 100px;
+}
+
+.sub-cont {
+	width: 450px;
+}
+
+.total-container {
+	display: flex;
+	flex-direction: row;
+}
+
+.total {
+	display: block;
+}
+
+.order {
+	width: 150px;
+	height: 10px;
+}
+
+.iprice {
+	width: 30px;
+	margin: 0px 0px 0px 10px;
+}
+
+.empty-space {
+	width: 270px;
+}
+
+.total-container {
+	margin: 30px 0px 0px 0px;
+	width: 500px;
+	font-weight: bold;
+	font-size: 25px;
+}
+
+.date {
+	font-size: 14px;
+	display: block;
+	margin: 10px 0px 10px 10px;
+}
+
+.last-par {
+	display: block;
+	width: 500px;
+	height: 100px;
+	margin: 20px 0px 0px 40px;
+	font-size: 14px; 
+}
+
+.gmail {
+	color: red;
+	font-size: 14px;
+	display: block;
+	margin: 10px 0px 0px 40px;
+}
+
+.problem-message {
+	display: block;
+	margin-left: 40px;
+}
+
+.full-button {
+	display: flex;
+	flex-direction: row;
+	padding: 0px 0px 0px 0px;
+	width: 500px;
+	height: 35px;
+	background: #293135;
+	margin: 10px 0px 0px 0px;
+}
+
+.place {
+	text-align: center;
+	width: 500px;
+	display: block;
+	color: #fff;
+	margin-top: 9px;
+}
+
+.placer {
+	float: right;
+	display: block;
+	width: 35px;
+	height: 35px;
+	border: 2px solid #293135;
+	font-size: 18px;
+	color: #293135;
 }
