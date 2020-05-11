@@ -52,7 +52,7 @@ i {
 	font-size: 15px;
 	padding: 10px 0px 10px 10px;
 	height: auto;
-	background: lightgrey;
+	background: #f2f5f6;
 
 }
 
@@ -97,4 +97,4 @@ i {
 }
 
 .shop:hover, .log-out:hover{
-	background-color: lightgrey;
+	background-color: #f2f5f6;

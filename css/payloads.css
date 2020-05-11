@@ -7,13 +7,16 @@
 .main-credit-cont {
 	display: flex;
 	flex-direction: row;
-	float: right;
+}
+
+.first-cont-row {
+	margin: 20px 30px 0px 0px;
 }
 
 .head-name-cont {
 	width: 500px;
 	height: 80px;
-	border-bottom: 1px lightgrey solid;
+	border-bottom: 1px #f2f5f6 solid;
 	padding: 0px 0px 0px 0px;
 }
 
@@ -23,15 +26,11 @@
 
 .content-container {
 	width: 50%;
+	display: flex;
+	flex-direction: row;
 }
 
-.par-div {
-	text-align: right;
-	width: 150px;
-	height: 300px;
-}
-
-button {
+.button {
 	float: right;
 	height: 40px;
 	width: 40px;
@@ -44,6 +43,7 @@ button {
 	height: 20px;
 	padding-left: 10px;
 	font-size: 14px;
+	box-shadow: 0px 0px 0px 1px lightblue;
 }
 
 input {
@@ -78,6 +78,7 @@ input {
 	height: 20px;
 	padding-left: 10px;
 	font-size: 14px;
+	box-shadow: 0px 0px 0px 1px lightblue;
 }
 
 .second-row {
@@ -92,7 +93,8 @@ input {
 
 .credit-card {
 	padding: 15px 0px 10px 0px;
-	background: lightgrey;
+	margin: 0px 20px 0px 0px;
+	background-image: url("Credit.GIF");
 	width: 350px;
 	height: 190px;
 	box-shadow: 0px 0px 9px 2px rgba(0,0,0,0.5);
@@ -133,7 +135,7 @@ input {
 }
 
 .country-select, .state-select {
-	width: 215px;
+	width: 235px;
 	height: 25px;
 	font-size: 14px;
 	padding: 3px 0px 3px 10px;
@@ -155,6 +157,7 @@ input {
 .big-input {
 	width: 500px;
 	height: 100px;
+	box-shadow: 0px 0px 0px 1px lightblue;
 }
 
 .chkbx {
@@ -206,4 +209,57 @@ select {
 
 .cvc {
 	margin-left: 5px;
+}
+
+.credit-paragraph {
+	display: block;
+	width: 150px;
+	height: 150%;
+}
+
+.cred-text-cont {
+	width: 140px;
+	height: 300px;
+}
+
+.cred-par {
+	display: block;
+	position: inherit;
+	font-size: 13px;
+	margin-top: 0px;
+}
+
+.sup-text {
+	font-size: 13px;
+}
+
+.red-text {
+	color: red;
+	display: block;
+	margin: 5px 0px 0px 0px;
+}
+
+.agree-checbx {
+	font-size: 15px; 
+}
+
+.terms {
+	color: red;
+}
+
+.normall-input, select {
+	box-shadow: 0px 0px 0px 1px lightblue;
+}
+
+/*HOVERS*/
+
+input:hover {
+	background: #f2f5f6;
+	border: lightblue 1px solid;
+}
+
+select:hover {
+
+	background: #f2f5f6;
+	border: lightblue 1px solid;
 }

@@ -5,6 +5,7 @@
 	<meta http-equiv="Refresh" content="" />
 	<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="css\header.css">
+	<link rel="stylesheet" type="text/css" href="css\summary.css">
 	<link rel="stylesheet" type="text/css" href="css\payloads.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
@@ -27,16 +28,16 @@
 			</div>
 		</header>
 		<div class="under-header">
-			<a href="#" class="nav-hrev">Lorem ipsum</a><span>></span>
-			<a href="#" class="nav-hrev">Lorem ipsum</a><span>></span>
-			<a href="#" class="nav-hrev">Lorem ipsum</a>
+			<a href="#" class="nav-hrev">Shop</a><span>></span>
+			<a href="#" class="nav-hrev">Suyi women Vintage wallet</a><span>></span>
+			<a href="#" class="nav-hrev">Payment Information</a>
 		</div>
 		<div class="content-container">
 			<ul class="main-ul">
 				<li class="main-li">
-					<div class="head-name-cont">
+					<div class="head-name-cont first-cont-row">
 						<span class="containers-header">Billing Details</span>
-						<button>+</button>
+						<button class="button">+</button>
 					</div>
 					<form>
 						<div class="billing">
@@ -108,8 +109,8 @@
 				</li>
 				<li class="main-li">
 					<div class="head-name-cont-second">
-						<span class="containers-header">Shipping Metog</span>
-						<button>+</button>
+						<span class="containers-header">Shipping Metod</span>
+						<button class="button">+</button>
 						<div class="shipping">
 							<div class="normal-radio">
 								<input type="radio">
@@ -127,7 +128,7 @@
 						<div>
 							<div class="head-name-cont">
 								<span class="containers-header">Payment Metod</span>
-								<button>+</button>
+								<button class="button">+</button>
 							</div>
 							<div class="radio-container">
 									<div class="cred-rad">
@@ -140,34 +141,84 @@
 									</div>
 								</div>
 								<div class="main-credit-cont">
-							<div class="credit-card">
-								<form>
-									<span class="card-numb-span">Card Number</span>
-									<input type="password" maxlength="19" minlength="19" class="card-numb-input">
-									<span class="card-numb-span">Name on Card</span>
-									<input type="text" maxlength="19" minlength="19" class="card-numb-input">
-									<div class="card-security-cont">
-										<div class="valid-cont">
-											<span class="card-numb-span">Valid Through</span>
-											<input type="number" class="valid-input valid">
+										<div class="credit-card">
+											<form>
+										<span class="card-numb-span">Card Number</span>
+										<input type="password" maxlength="19" minlength="19" class="card-numb-input">
+										<span class="card-numb-span">Name on Card</span>
+										<input type="text" maxlength="19" minlength="19" class="card-numb-input">
+										<div class="card-security-cont">
+											<div class="valid-cont">
+												<span class="card-numb-span">Valid Through</span>
+												<input type="text" class="valid-input valid">
+											</div>
+														<div class="cvc-cont">
+															<span class="card-numb-span">CVC Code</span>
+															<input type="text" class="valid-input cvc">
+														</div>
+													</div>
+											</form>
 										</div>
-										<div class="cvc-cont">
-											<span class="card-numb-span">CVC Code</span>
-											<input type="number" class="valid-input cvc">
-										</div>
-									</div>
-								</form>
-							</div>
-							<div class="par-div">
-								<p class="credit-paragraph">People like "special" price or exclusive offer directed only to them. Most Industrial and Manufacturing equipment buyers are seeking to be told that they are special</p>
+								 <div class="cred-text-cont">
+								 	<p class="cred-par">People like "special" price or exclusive offer directed only to them. Most Industrial and Manufacturing equipment buyers are seeking to be told that they are special</p>
+								 	<p class="sup-text">If you have a problem, you can contact with our support:<a href="#" class="red-text">Support@gmail.com</a></p>
+								 </div>
 							</div>
 						</div>
+					<li class="main-li"><div>
+						
+					
+							<div class="head-name-cont">
+							<span class="containers-header">Rewiew</span>
+							<button class="button">+</button>
 						</div>
-					<li class="main-li"><div class="head-name-cont">
-						<span class="containers-header">Rewiew</span>
-						<button>+</button>
+						<input type="checkbox"><span class="agree-checbx">I agree with <a href="" class="terms">Terms & Conditions</a></span>
 					</div>
+				</li>
 			</ul>
+			<div class="main-sum-cont">
+					<div class="head-name-cont">
+						<span class="containers-header">Order Summary</span>
+					</div>
+				<div class="good-container">
+					<div class="first-good-cont">
+						<button class="x-but">X</button>
+						<img src="images.GIF" class="wallet-img">
+						<div class="text-cont">
+							<span class="name-of-good">Suyi Women Vintage wallet</span>
+							<span class="describe-of-good">Silver Color</span>
+						</div>
+							<span class="summ">- 1  +</span>
+							<span class="price">$29.9</span>
+					</div>
+					<div class="first-good-cont">
+						<button class="x-but">X</button>
+						<img src="images.GIF" class="wallet-img">
+						<div class="text-cont">
+							<span class="name-of-good">Suyi Women Vintage wallet</span>
+							<span class="describe-of-good">Silver Color</span>
+						</div>
+							<span class="summ">- 1  +</span>
+							<span class="price">$29.9</span>
+					</div>
+					<div class="first-good-cont third">
+						<button class="x-but">X</button>
+						<img src="images.GIF" class="wallet-img">
+						<div class="text-cont">
+							<span class="name-of-good">Suyi Women Vintage wallet</span>
+							<span class="describe-of-good">Silver Color</span>
+						</div>
+							<span class="summ">- 1  +</span>
+							<span class="price">$29.9</span>
+					</div>
+				</div>
+				<div>
+					<span class="subtotal">Subtotal(4 items)</span>
+					<span class="subtotal">Shipping</span>
+					<span class="promocode">Use Promocode</span>
+					<input type="text" class="promo-code" />
+				</div>
+			</div>
 		</div>
 	</div>
 </body>
