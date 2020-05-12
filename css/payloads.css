@@ -10,8 +10,10 @@
 }
 
 .first-cont-row {
-	margin: 20px 30px 0px 0px;
+	margin: 20px 80px 0px 0px;
 }
+
+
 
 .head-name-cont {
 	width: 500px;
@@ -61,10 +63,15 @@ input {
 	margin: 8px 0px 4px 0px;
 }
 
+.main-li-first {
+	display: block;
+	margin-right: 50px;
+}
+
 .first-row {
 	display: flex;
 	flex-direction: row;
-	width: 700px;
+	width: auto;
 }
 
 .small-input-box {
@@ -152,6 +159,7 @@ input {
 
 .main-li {
 	display: block;
+	margin-right: 30px;
 }
 
 .big-input {
@@ -251,6 +259,39 @@ select {
 	box-shadow: 0px 0px 0px 1px lightblue;
 }
 
+.full-button {
+	display: flex;
+	flex-direction: row;
+	padding: 0px 0px 0px 0px;
+	width: 500px;
+	height: 35px;
+	background: #293135;
+	margin: 10px 0px 0px 0px;
+}
+
+.place {
+	text-align: center;
+	width: 500px;
+	display: block;
+	color: #fff;
+	margin-top: 9px;
+}
+
+.placer {
+	float: right;
+	display: block;
+	width: 35px;
+	height: 35px;
+	border: 2px solid #293135;
+	font-size: 20px;
+	color: #293135;
+}
+
+#bill, #shipping, #cred-container {
+	display: block;
+}
+
+
 /*HOVERS*/
 
 input:hover {
@@ -262,4 +303,22 @@ select:hover {
 
 	background: #f2f5f6;
 	border: lightblue 1px solid;
+}
+
+.placer:hover {
+	float: right;
+	display: block;
+	width: 35px;
+	height: 35px;
+	border-left: 2px solid #fff;
+	font-size: 20px;
+	color: #fff;
+	background: #293135;
+	cursor: pointer;
+}
+
+.button:hover {
+	background: #293135;
+	color: #fff;
+	cursor: pointer;
 }

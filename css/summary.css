@@ -1,6 +1,7 @@
 .main-sum-cont {
+	position: relative;
 	padding:10px;
-	margin: 20px 0px 0px 30px;
+	margin: 20px 0px 0px 40px;
 	background: #f2f5f6;
 	width: 500px;
 	height: 620px;
@@ -161,30 +162,18 @@
 	margin-left: 40px;
 }
 
-.full-button {
-	display: flex;
-	flex-direction: row;
-	padding: 0px 0px 0px 0px;
-	width: 500px;
-	height: 35px;
-	background: #293135;
-	margin: 10px 0px 0px 0px;
-}
+			/*HOVERS*/
 
-.place {
-	text-align: center;
-	width: 500px;
+.x-but:hover {
 	display: block;
-	color: #fff;
-	margin-top: 9px;
-}
-
-.placer {
-	float: right;
-	display: block;
-	width: 35px;
-	height: 35px;
-	border: 2px solid #293135;
-	font-size: 18px;
-	color: #293135;
+	width: 20px;
+	height: 20px;
+	border-radius: 100px;
+	margin: 40px 10px 10px 10px;
+	padding: 0px 1px 1px 0px;
+	border: none;
+	background: #fff;
+	color: black;
+	box-shadow: inset 0px 0px 2px 2px rgba(0,0,0,0.75);
+	cursor: pointer;
 }

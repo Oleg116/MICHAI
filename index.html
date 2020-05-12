@@ -34,13 +34,13 @@
 		</div>
 		<div class="content-container">
 			<ul class="main-ul">
-				<li class="main-li">
+				<li class="main-li main-li-first">
 					<div class="head-name-cont first-cont-row">
 						<span class="containers-header">Billing Details</span>
-						<button class="button">+</button>
+						<button class="button" id="button-1">+</button>
 					</div>
 					<form>
-						<div class="billing">
+						<div class="billing" id="bill">
 							<div class="first-row">
 								<div class="first-column">
 									<div class="cont">
@@ -110,8 +110,8 @@
 				<li class="main-li">
 					<div class="head-name-cont-second">
 						<span class="containers-header">Shipping Metod </span>
-						<button class="button">+</button>
-						<div class="shipping">
+						<button class="button" id="button-2">+</button>
+						<div class="shipping" id="shipping">
 							<div class="normal-radio">
 								<input type="radio">
 								<label for="normal">Normal</label>
@@ -128,9 +128,10 @@
 						<div>
 							<div class="head-name-cont">
 								<span class="containers-header">Payment Metod</span>
-								<button class="button">+</button>
+								<button class="button" id="button-3">+</button>
 							</div>
-							<div class="radio-container">
+							<div class="cred-container" id="cred-container">
+								<div class="radio-container">
 									<div class="cred-rad">
 										<input type="radio">
 										<label>Credit Card</label>
@@ -186,8 +187,8 @@
 						<span class="containers-header">Order Summary</span>
 					</div>
 				<div class="good-container">
-					<div class="first-good-cont">
-						<button class="x-but">X</button>
+					<div class="first-good-cont" id="firstGood">
+						<button class="x-but" id="x-but-first">X</button>
 						<img src="images.GIF" class="wallet-img">
 						<div class="text-cont">
 							<span class="name-of-good">Suyi Women Vintage wallet</span>
@@ -196,8 +197,8 @@
 							<span class="summ">- 1  +</span>
 							<span class="price">$29.9</span>
 					</div>
-					<div class="first-good-cont">
-						<button class="x-but">X</button>
+					<div class="first-good-cont" id="secGood">
+						<button class="x-but" id="x-but-second">X</button>
 						<img src="images.GIF" class="wallet-img">
 						<div class="text-cont">
 							<span class="name-of-good">Suyi Women Vintage wallet</span>
@@ -206,8 +207,8 @@
 							<span class="summ">- 1  +</span>
 							<span class="price">$29.9</span>
 					</div>
-					<div class="first-good-cont third">
-						<button class="x-but">X</button>
+					<div class="first-good-cont third" id="thirdGood">
+						<button class="x-but" id="x-but-third">X</button>
 						<img src="images.GIF" class="wallet-img">
 						<div class="text-cont">
 							<span class="name-of-good">Suyi Women Vintage wallet</span>
@@ -224,7 +225,9 @@
 							<span class="promocode">Use Promocode</span>
 							<input type="text" class="promo-code" />
 							<div class="total-container">
-								<span class="total order">Order Total</span>
+								<div>
+								<span class="order-span">Order Total</span>
+								</div>
 								<div class="empty-space"></div>
 								<span class="total iprice">$99.7</span>
 							</div>
@@ -241,6 +244,8 @@
 				<a href="#" class="gmail">support@gmail.com</a>
 			</div>
 		</div>
+		<footer></footer>
 	</div>
+	<script type="text/javascript" src="main.js"></script>
 </body>
 </html>
