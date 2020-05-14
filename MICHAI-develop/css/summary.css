@@ -1,0 +1,179 @@
+.main-sum-cont {
+	position: relative;
+	padding:10px;
+	margin: 20px 0px 0px 40px;
+	background: #f2f5f6;
+	width: 500px;
+	height: 620px;
+	display: flex;
+	flex-direction: column;
+	box-shadow: 0px 0px 5px 3px rgba(0,0,0,0.5);
+}
+
+.good-container {
+	background: #fff;
+	width: 100%;
+	height: 300px;
+}
+
+.first-good-cont {
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+	height: 33%;
+	background: #f2f5f6;
+	position: inherit; 
+}
+
+.wallet-img {
+	height: 100%;
+	width: auto;
+}
+
+.x-but {
+	display: block;
+	width: 20px;
+	height: 20px;
+	border-radius: 100px;
+	margin: 40px 10px 10px 10px;
+	padding: 0px 1px 1px 0px;
+	border: none;
+	background: #fff;
+	color: black;
+}
+
+.text-cont {
+	width: 190px;
+	display: flex;
+	flex-direction: column;
+}
+
+.name-of-good  {
+	font-size: 17px;
+	margin-bottom: 10px;
+	font-weight: bold;
+}
+
+.summ {
+	display: block;
+	text-align: center;
+	margin-top: 40px;
+	width: 100px;
+}
+
+.price {
+	text-align: center;
+	display: block;
+	margin: 40px 5px 0px 10px;
+	width: 150px;
+}
+
+.subtotal {
+	display: block;
+	margin: 15px 0px 10px 5px;
+	font-weight: bold;
+	font-size: 16px;
+}
+
+.promocode {
+	display: block;
+	margin: 10px 0px 5px 5px;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+.promo-code {
+	width: 480px;
+	height: 25px;
+	margin-left: 10px; 
+}
+
+.third {
+	border-bottom: 1px solid #f2f5f6;
+}
+
+.sub-promo-cont {
+	display: flex;
+	flex-direction: row;
+}
+
+.summs {
+	width: auto;
+	height: 100px;
+}
+
+.sub-cont {
+	width: 450px;
+}
+
+.total-container {
+	display: flex;
+	flex-direction: row;
+}
+
+.total {
+	display: block;
+}
+
+.order {
+	width: 150px;
+	height: 10px;
+}
+
+.iprice {
+	width: 30px;
+	margin: 0px 0px 0px 10px;
+}
+
+.empty-space {
+	width: 270px;
+}
+
+.total-container {
+	margin: 30px 0px 0px 0px;
+	width: 500px;
+	font-weight: bold;
+	font-size: 25px;
+}
+
+.date {
+	font-size: 14px;
+	display: block;
+	margin: 10px 0px 10px 10px;
+}
+
+.last-par {
+	display: block;
+	width: 500px;
+	height: 100px;
+	margin: 20px 0px 0px 40px;
+	font-size: 14px; 
+}
+
+.gmail {
+	color: red;
+	font-size: 14px;
+	display: block;
+	margin: 10px 0px 0px 40px;
+}
+
+.problem-message {
+	display: block;
+	margin-left: 40px;
+}
+
+			/*HOVERS*/
+
+.x-but:hover {
+	display: block;
+	width: 20px;
+	height: 20px;
+	border-radius: 100px;
+	margin: 40px 10px 10px 10px;
+	padding: 0px 1px 1px 0px;
+	border: none;
+	background: #fff;
+	color: black;
+	box-shadow: inset 0px 0px 2px 2px rgba(0,0,0,0.75);
+	cursor: pointer;
+}

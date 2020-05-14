@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Title</title>
+	<meta http-equiv="Refresh" content="" />
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css\header.css">
+	<link rel="stylesheet" type="text/css" href="css\summary.css">
+	<link rel="stylesheet" type="text/css" href="css\payloads.css">
+	<link rel="stylesheet" type="text/css" href="css\footer.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@900&display=swap" rel="stylesheet">
+</head>
+<body>
+	<div class="container">
+		<header>
+			<a href="#">
+				<img src="logo.PNG"/>
+			</a>
+			<ul>
+				<li class="header-button">Home</li>
+				<li class="header-button">Shop</li>
+				<li  class="Design header-button">Design Your Wallet</li>
+				<li class="header-button">About</li>
+			</ul>
+			<div class="empty"></div>
+			<div class="button-container">
+				<div class="shop"><i class="fa fa-shopping-bag" aria-hidden="true"></i></div>
+				<div class="log-out"><i class="fa fa-sign-out" aria-hidden="true"></i></div>
+			</div>
+		</header>
+		<div class="under-header">
+			<a href="#" class="nav-hrev">Shop</a><span>></span>
+			<a href="#" class="nav-hrev">Suyi women Vintage wallet</a><span>></span>
+			<a href="#" class="nav-hrev">Payment Information</a>
+		</div>
+		<div class="content-container">
+			<ul class="main-ul">
+				<li class="main-li main-li-first">
+					<div class="head-name-cont first-cont-row">
+						<span class="containers-header">Billing Details</span>
+						<button class="button" id="button-1">+</button>
+					</div>
+					<form>
+						<div class="billing" id="bill">
+							<div class="first-row">
+								<div class="first-column">
+									<div class="cont">
+										<span class="input-name">First Name</span>
+										<input class="normall-input" type="text" placeholder="Name" />
+									</div>
+									<div class="cont">
+										<span class="input-name">Email</span>
+										<input class="normall-input" type="Email" placeholder="Email" />
+									</div>
+									<div class="cont">
+										<span class="input-name">Country</span>
+										  <select class="country-select">
+    							        	    <option value="t1" >Ukraine</option>
+   								            	<option value="t2">USA</option>
+        							        	<option value="t3">Israel</option>
+          								    	<option value="t4">France</option>
+          								  </select>
+										</div>
+									</div>
+									<div class="second-column">
+										<div class="cont">
+											<span class="input-name">Last Name</span>
+											<input class="normall-input" type="text" placeholder="Last Name" />
+										</div>
+										<div class="cont">
+											<span class="input-name">Phone Number</span>
+											<input class="normall-input" type="tel" pattern="[\+]\d{2}[\(]\d{3}[\)]\s\d{3}\s\d{2}[\s\d{2}" />
+										</div>
+										<div class="cont">
+											<span class="input-name">Adress</span>
+											<input class="normall-input" type="text" placeholder="Adress" />
+										</div>
+									</div>
+								</div>
+								<div class="box">
+								<div class="second-row">
+									<div class="small-input-box">
+										<span class="input-name">City/Town</span>
+										<input type="text" class="small-input">
+									</div>
+									<div class="small-input-box">
+										<span class="input-name">State</span>
+										<select class="state-select">
+    								         <option value="t1">Nevada</option>
+   									         <option value="t2">California</option>
+   									         <option value="t3">Ohio</option>
+   									         <option value="t4">Virginia</option>
+        	  							</select>
+									</div>
+									<div class="small-input-box">
+										<span class="input-name">ZIP code</span>
+										<input type="text" class="small-input" pattern="[0-9]{6}">
+									</div>
+								</div>
+								<div class="big-input-box">
+									<span class="input-name">Order Notes</span>
+									<input type="text" class="big-input">
+								</div>
+								<div class="checkbox-cont">
+								<input type="checkbox" class="checkbox" /><span class="chkbx">Sign Up to Michai</span>
+								</div>
+							</div>
+						</div>
+					</form>
+				</li>
+				<li class="main-li">
+					<div class="head-name-cont-second">
+						<span class="containers-header">Shipping Metod </span>
+						<button class="button" id="button-2">+</button>
+						<div class="shipping" id="shipping">
+							<div class="normal-radio">
+								<input type="radio">
+								<label for="normal">Normal</label>
+								<p class="shipp-paragraph">People like "special" price or exclusive offer directed only to them. Most Industrial and Manufacturing equipment buyers are seeking to be told that they are special</p>
+							</div>
+							<div class="strip-radio">
+								<input type="radio">
+								<label>Strip</label>
+								<p class="shipp-paragraph">People like "special" price or exclusive offer directed only to them. Most Industrial and Manufacturing equipment buyers are seeking to be told that they are special</p>
+							</div>
+						</div>
+					</div>
+					<li class="main-li">
+						<div>
+							<div class="head-name-cont">
+								<span class="containers-header">Payment Metod</span>
+								<button class="button" id="button-3">+</button>
+							</div>
+							<div class="cred-container" id="cred-container">
+								<div class="radio-container">
+									<div class="cred-rad">
+										<input type="radio">
+										<label>Credit Card</label>
+									</div>
+									<div class="st-rad">
+										<input type="radio">
+										<label>Strip</label>
+									</div>
+								</div>
+								<div class="main-credit-cont">
+										<div class="credit-card">
+											<form>
+										<span class="card-numb-span">Card Number</span>
+										<input type="password" maxlength="19" minlength="19" class="card-numb-input">
+										<span class="card-numb-span">Name on Card</span>
+										<input type="text" maxlength="19" minlength="19" class="card-numb-input">
+										<div class="card-security-cont">
+											<div class="valid-cont">
+												<span class="card-numb-span">Valid Through</span>
+												<input type="text" class="valid-input valid">
+											</div>
+														<div class="cvc-cont">
+															<span class="card-numb-span">CVC Code</span>
+															<input type="text" class="valid-input cvc">
+														</div>
+													</div>
+											</form>
+										</div>
+								 <div class="cred-text-cont">
+								 	<p class="cred-par">People like "special" price or exclusive offer directed only to them. Most Industrial and Manufacturing equipment buyers are seeking to be told that they are special</p>
+								 	<p class="sup-text">If you have a problem, you can contact with our support:<a href="#" class="red-text">Support@gmail.com</a></p>
+								 </div>
+							</div>
+						</div>
+					<li class="main-li"><div>
+						
+					
+							<div class="head-name-cont">
+							<span class="containers-header">Rewiew</span>
+							<button class="button">+</button>
+						</div>
+						<input type="checkbox"><span class="agree-checbx">I agree with <a href="" class="terms">Terms & Conditions</a></span>
+						<div class="full-button">
+							<span class="place">Place Order</span>
+							<button class="placer"> > </button>
+						</div>
+					</div>
+				</li>
+			</ul>
+			<div class="right-side-content">
+			<div class="main-sum-cont">
+					<div class="head-name-cont">
+						<span class="containers-header">Order Summary</span>
+					</div>
+				<div class="good-container">
+					<div class="first-good-cont" id="firstGood">
+						<button class="x-but" id="x-but-first">X</button>
+						<img src="images.GIF" class="wallet-img">
+						<div class="text-cont">
+							<span class="name-of-good">Suyi Women Vintage wallet</span>
+							<span class="describe-of-good">Silver Color</span>
+						</div>
+							<span class="summ">- 1  +</span>
+							<span class="price">$29.9</span>
+					</div>
+					<div class="first-good-cont" id="secGood">
+						<button class="x-but" id="x-but-second">X</button>
+						<img src="images.GIF" class="wallet-img">
+						<div class="text-cont">
+							<span class="name-of-good">Suyi Women Vintage wallet</span>
+							<span class="describe-of-good">Silver Color</span>
+						</div>
+							<span class="summ">- 1  +</span>
+							<span class="price">$29.9</span>
+					</div>
+					<div class="first-good-cont third" id="thirdGood">
+						<button class="x-but" id="x-but-third">X</button>
+						<img src="images.GIF" class="wallet-img">
+						<div class="text-cont">
+							<span class="name-of-good">Suyi Women Vintage wallet</span>
+							<span class="describe-of-good">Silver Color</span>
+						</div>
+							<span class="summ">- 1  +</span>
+							<span class="price">$29.9</span>
+						</div>
+					</div>
+					<div class="sub-promo-cont">
+						<div class="sub-cont">
+							<span class="subtotal">Subtotal(4 items)</span>
+							<span class="subtotal">Shipping</span>
+							<span class="promocode">Use Promocode</span>
+							<input type="text" class="promo-code" />
+							<div class="total-container">
+								<div>
+								<span class="order-span">Order Total</span>
+								</div>
+								<div class="empty-space"></div>
+								<span class="total iprice">$99.7</span>
+							</div>
+						</div>
+						<div class="summs">
+							<span class="subtotal">$89.7</span>
+							<span class="subtotal">$10.0</span>
+						</div>
+					</div>
+					<span class="terms date">Guaranteed delivery date: 2 Feb 2018</span>
+				</div>
+				<p class="last-par">People like "special" price or exclusive offer directed only to them. Most Industrial and Manufacturing equipment buyers are seeking to be told that they are special</p>
+				<span class="problem-message">If you have a problem, you can can contact with our  support:</span>
+				<a href="#" class="gmail">support@gmail.com</a>
+			</div>
+		</div>
+		<footer>
+			<div class="first-foot-column">
+				<ul class="fotter-ul">
+					<li class="first-foot-row"><a href="#">Shop</a></li>
+					<li><a href="#">Women</a></li>
+					<li><a href="#">Men</a></li>
+					<li><a href="#">Kids</a></li>
+					<li><a href="#">Trending</a></li>
+				</ul>
+			</div>
+			<div class="first-foot-column">
+				<ul class="fotter-ul">
+					<li class="second-footer-row"><a href="#">About</a></li>
+					<li><a href="#">Company</a></li>
+					<li><a href="#">Shopping Info</a></li>
+					<li><a href="#">Jobs</a></li>
+					<li><a href="#">Contact</a></li>
+				</ul>
+			</div>
+			<div class="third-foot-column">
+				<ul class="fotter-ul">
+					<li class="first-foot-row"><a href="#">Website</a></li>
+					<li><a href="#">Terms of Use</a></li>
+					<li><a href="#">Privacy Policy</a></li>
+					<li><a href="#">Copyright Policy</a></li>
+					<li><a href="#">Support</a></li>
+				</ul>
+			</div>
+			<div class="social">
+				<div class="logo-div">
+					<span class="logo-span">Michal</span>
+				</div>
+				<div class="first-social-row">
+					<a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+					<a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+					<a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+				</div>
+				<div class="second-social-row">
+					<a href="#"><i class="fa fa-cc-mastercard" aria-hidden="true"></i></a>
+					<a href="#"><i class="fa fa-cc-visa" aria-hidden="true"></i></a>
+					<a href="#"><i class="fa fa-paypal" aria-hidden="true"></i></a>
+				</div>
+				<div class="ARR">Bags 2017, All rights reserved.</div>
+			</div>
+		</footer>
+	</div>
+	<script type="text/javascript" src="main.js"></script>
+</body>
+</html>

@@ -1,0 +1,105 @@
+footer {
+	background: #f2f5f6;
+	width: 100%;
+	height: 250px;
+	text-align: center;
+	align-items: center;
+	display: flex;
+	flex-direction: row;
+	margin-top: 50px;
+	font-size: 17px;
+}
+
+.first-foot-column {
+	display: flex;
+	flex-direction: column;
+	height: 250px;
+	width: 150px;
+	margin: 10px 50px 10px 30px;
+}
+
+.fotter-ul {
+	display: flex;
+	flex-direction: column;
+}
+
+.social {
+	width: 500px;
+	height: 250px;	
+	margin-left: 150px;
+	position: relative;
+}
+
+.first-foot-row {
+	font-weight: bold;
+}
+
+.second-footer-column {
+	display: flex;
+	flex-direction: column;
+	height: 250px;
+	width: 300px;
+	margin: 10px 30px 10px 30px;
+}
+
+.second-footer-row {
+	font-weight: bold;
+}
+
+.third-foot-column {
+	display: flex;
+	flex-direction: column;
+	height: 250px;
+	width: 200px;
+	margin: 10px 30px 10px 30px;
+}
+
+.first-social-row {
+	display: flex;
+	flex-direction: row;
+	position: absolute;
+	top: 45%;
+	left: 38%;
+}
+
+.second-social-row {
+	display: flex;
+	flex-direction: row;
+	position: absolute;
+	top: 55%;
+	left: 40%;
+	margin-top: 10px;
+}
+
+.logo-div {
+	position: absolute;
+	top: 32%;
+	left: 40.5%;
+	font-size: 30px;
+}
+
+.logo-span {
+	font-family: 'Noto Sans JP', sans-serif;
+}
+
+.ARR {
+	position: relative;
+	top: 74%;
+	left: 3%;
+	font-size: 13px;
+}
+
+footer li {
+	margin: 10px 0px 10px 0px;
+}
+
+footer .first-social-row i {
+	margin: 9px;
+	font-size: 25px;
+}
+
+footer .second-social-row i {
+	margin: 3px;
+	font-size: 25px;
+}
+
