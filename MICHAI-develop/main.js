@@ -1,70 +1,31 @@
 //BILLING DETAILS
 
-function slideUp() {
-		bill.style.display = 'none';
-	}
-
-function slideDown() {
-		bill.style.display = 'block';
-	}
-
-
 function slideToggleForBill() {
-	(bill.style.display == 'none') ?
-   slideDown() : slideUp();
+	(document.getElementById("bill").style.display == 'none') ?
+   document.getElementById("bill").style.display = 'block' : document.getElementById("bill").style.display = 'none';
 }
 
-
 // SHIPPING METOD
-function slideUpShip() {
-		shipping.style.display = 'none';
-	}
-
-function slideDownShip() {
-		shipping.style.display = 'block';
-	}
-
 
 function slideToggleForShiping() {
-	(shipping.style.display == 'none') ?
-   slideDownShip() : slideUpShip();
+	(document.getElementById('shipping').style.display == 'none') ?
+   document.getElementById('shipping').style.display = 'block' : document.getElementById('shipping').style.display = 'none';
 }
 
 //PAYMENT METOD
-function slideUpcredContainer() {
-		credContainer.style.display = 'none';
-	}
-
-function slideDowncredContainer() {
-		credContainer.style.display = 'block';
-	}
-
 
 function slideToggleForcredContainer() {
-	(credContainer.style.display == 'none') ?
-   slideDowncredContainer() : slideUpcredContainer();
+	(document.getElementById('cred-container').style.display == 'none') ?
+  document.getElementById('cred-container').style.display = 'block' : document.getElementById('cred-container').style.display = 'none';
 }
+//FUNCTION CALLS
 
-const bill = document.getElementById("bill");
-var shipping = document.getElementById('shipping');
-var credContainer = document.getElementById('cred-container');
-const btnOne = document.getElementById('button-1');
-const btnTwo = document.getElementById('button-2');
-const btnThree = document.getElementById('button-3');
-const firstGoodContainer = document.getElementById('firstGood');
-const secGoodContainer = document.getElementById('secGood');
-const thirdGoodContainer = document.getElementById('thirdGood');
-const closeBtnFirst = document.getElementById('x-but-first');
-const closeBtnSec = document.getElementById('x-but-second');
-const closeBtnThird = document.getElementById('x-but-third');
+document.getElementById('button-1').addEventListener("click", slideToggleForBill);
+document.getElementById('button-2').addEventListener("click", slideToggleForShiping);
+document.getElementById('button-3').addEventListener("click", slideToggleForcredContainer);
 
+//CHECK FUNCTIONS
 
-
-
-btnOne.addEventListener("click", slideToggleForBill);
-btnTwo.addEventListener("click", slideToggleForShiping);
-btnThree.addEventListener("click", slideToggleForcredContainer);
-
-closeBtnFirst.addEventListener("click", function(){ firstGoodContainer.style.display = 'none'; });
-closeBtnSec.addEventListener("click", function(){ secGoodContainer.style.display = 'none'; });
-closeBtnThird.addEventListener("click", function(){ thirdGoodContainer.style.display = 'none'; });
+document.getElementById('x-but-first').addEventListener("click", function(){ document.getElementById('firstGood').style.display = 'none'; });
+document.getElementById('x-but-second').addEventListener("click", function(){ document.getElementById('secGood').style.display = 'none'; });
+document.getElementById('x-but-third').addEventListener("click", function(){ document.getElementById('thirdGood').style.display = 'none'; });
